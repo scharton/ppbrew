@@ -1,0 +1,7 @@
+.heading {
+  min-height: 100px;
+  max-height: 150px;
+  background-color: gray;
+  text-align: center;
+  vertical-align: middle;
+}
