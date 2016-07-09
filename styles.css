@@ -2,7 +2,9 @@
   min-height: 100px;
   background-color: #DEDA26;
   text-align: center;
-  
+  font-family: 'Source Sans Pro';
+  font-weight: 900;
+  font-size: 36px;
 }
 
 .section-hours {
@@ -34,4 +36,20 @@
 
 .logo {
   height: 150px;
+}
+
+.instagram {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  height: 35px;
+  padding-right: 20px;
+}
+
+.facebook {
+  position: absolute;
+  right: 0;
+  top: 50px;
+  height: 35px;
+  padding-right: 20px;  
 }

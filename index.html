@@ -6,15 +6,30 @@
   <title>Pine and Palm</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
 </head>
 
-<body ng-controller="ctrl">
+<body ng-controller="ctrl as main">
   <div class="container-fluid">
     <div class="row heading">
       <div class="pull-left">
       <img src="logo-clear.png" alt="logo" class="logo">
       </div>
-      <h1>{{name}}</h1>
+      <h1>{{main.name}}</h1>
+      <div>
+        <a href="{{main.instagram}}">
+          <img src="instagram.png" alt="instagram" class="instagram">
+        </a>
+        
+      </div>
+      <div>
+        <a href="{{main.facebook}}">
+        <img src="facebook.png" alt="facebook" class="facebook">
+        </a>
+        
+      </div>
+      
     </div>
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 section-hours">
