@@ -1,7 +1,37 @@
 .heading {
   min-height: 100px;
-  max-height: 150px;
-  background-color: gray;
+  background-color: #DEDA26;
   text-align: center;
-  vertical-align: middle;
+  
+}
+
+.section-hours {
+  background-color: blue;
+  min-height: 100px;
+ 
+}
+
+.info-hours {
+  padding-left: 20px;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+
+.section-contact {
+    min-height: 100px;
+  background-color: lightblue;
+ 
+}
+
+
+.info-contact {
+  padding-left: 20px;
+  font-size: 18px;
+  color: darkblue;
+  font-weight: normal;  
+}
+
+.logo {
+  height: 150px;
 }
