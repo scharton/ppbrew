@@ -16,7 +16,11 @@
       <div class="pull-left">
       <img src="logo-clear.png" alt="logo" class="logo">
       </div>
-      <h1>{{main.name}}</h1>
+      <div class="heading-name">{{main.name}}</div>
+      <div class="heading-address">
+        <div>{{main.address.street}}</div>
+        <div>{{main.address.city}}, {{main.address.state}} {{main.address.zip}}</div>
+      </div>
       <div>
         <a href="{{main.instagram}}">
           <img src="instagram.png" alt="instagram" class="instagram">

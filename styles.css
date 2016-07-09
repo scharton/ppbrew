@@ -2,9 +2,16 @@
   min-height: 100px;
   background-color: #DEDA26;
   text-align: center;
+}
+.heading-name {
   font-family: 'Source Sans Pro';
   font-weight: 900;
-  font-size: 36px;
+  font-size: 36px;  
+}
+.heading-address {
+  font-family: 'Source Sans Pro';
+  font-weight: 500;
+  font-size: 18px;  
 }
 
 .section-hours {

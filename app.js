@@ -4,7 +4,7 @@
   app.controller('ctrl', function() {
     var vm = this;
     vm.name = "Pine and Palm Brewing";
-    vm.addr = {
+    vm.address = {
       street: "352 W. Bedford Ave., #111",
       city: "Fresno",
       state: "CA",
