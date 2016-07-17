@@ -2,17 +2,17 @@
    angular.module('app')
        .value('strings',
            {
-               name: "Pine and Palm Brewing",
+               name: "The Name in the Heading",
                address: {
-                   street: "352 W. Bedford Ave., #111",
-                   city: "Fresno",
-                   state: "CA",
-                   zip: "93711"
+                   street: "123 AnyStree Ave., #123",
+                   city: "NoName",
+                   state: "AK",
+                   zip: "00000"
                },
-               phone: "(559) 970-758",
-               email: "pineandpalmbrewing@gmail.com",
-               facebook: "https://www.facebook.com/PineandPalm",
-               instagram: "https://www.instagram.com/pineandpalmbrew/"
+               phone: "(555) 123-4567",
+               email: "nosuchemail@gmail.com",
+               facebook: "https://www.facebook.com/Sample",
+               instagram: "https://www.instagram.com/Sample/"
            }
        );
 })();
