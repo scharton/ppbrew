@@ -1,62 +1,86 @@
 .heading {
-  min-height: 100px;
-  background-color: #DEDA26;
-  text-align: center;
+    min-height: 100px;
+    background-color: #DEDA26;
+    text-align: center;
 }
+
 .heading-name {
-  font-family: 'Source Sans Pro';
-  font-weight: 900;
-  font-size: 36px;  
+    font-family: 'Source Sans Pro';
+    font-weight: 900;
+    font-size: 36px;
 }
+
+.heading-name-xs {
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 18px;
+}
+
 .heading-address {
-  font-family: 'Source Sans Pro';
-  font-weight: 500;
-  font-size: 18px;  
+    font-family: 'Source Sans Pro';
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .section-hours {
-  background-color: blue;
-  min-height: 100px;
- 
+    background-color: blue;
+    min-height: 100px;
+
 }
 
 .info-hours {
-  padding-left: 20px;
-  font-size: 16px;
-  color: white;
-  font-weight: bold;
+    padding-left: 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
 }
 
 .section-contact {
     min-height: 100px;
-  background-color: lightblue;
- 
+    background-color: lightblue;
+
 }
 
-
 .info-contact {
-  padding-left: 20px;
-  font-size: 18px;
-  color: darkblue;
-  font-weight: normal;  
+    padding-left: 20px;
+    font-size: 18px;
+    color: darkblue;
+    font-weight: normal;
 }
 
 .logo {
-  height: 150px;
+    height: 150px;
+}
+.logo-xs {
+    height: 75px;
 }
 
 .instagram {
-  position: absolute;
-  right: 0;
-  top: 10px;
-  height: 35px;
-  padding-right: 20px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 35px;
+    padding-right: 20px;
+}
+.instagram-xs {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 25px;
+    padding-right: 0px;
 }
 
 .facebook {
-  position: absolute;
-  right: 0;
-  top: 50px;
-  height: 35px;
-  padding-right: 20px;  
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 35px;
+    padding-right: 20px;
+}
+.facebook-xs {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 25px;
+    padding-right: 0px;
 }
