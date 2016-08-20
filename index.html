@@ -59,7 +59,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 section-hours">
             <div class="info-hours">
-                These are the hours
+                <div ng-repeat="h in main.hours">{{h.day}} {{h.from}}-{{h.to}}</div>
             </div>
 
         </div>
@@ -72,8 +72,14 @@
 
     <div class="row">
         <div class="col-md-offset-3 col-sm-offset-3 col-md-6 col-sm-6">
-            <div class="panel panel-default">
-                Here is the beer menu
+
+            <div class="beermenu-box panel panel-default">
+                <div class="row" ng-repeat="i in main.beermenu">
+                    <div class="col-xs-4 col-sm-4 col-md-4">{{i.item}}</div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">{{i.alc}}</div>
+                    <div class="col-xs-4 col-sm-4 col-md-4">{{i.amt}}</div>
+
+                </div>
             </div>
         </div>
     </div>
@@ -85,6 +91,7 @@
 <script src="bower_components/angular/angular.min.js"></script>
 <script src="app.js"></script>
 <script src="strings.js"></script>
+<script src="beermenu.js"></script>
 <script>
     (function (i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
