@@ -13,5 +13,14 @@
 
     });
 
+    app.directive('beerList', function () {
+        return {
+            scope: true,
+            restrict: 'AE',
+            templateUrl: 'beerlist.html',
+            controllerAs: 'beer'
+        }
+
+    });
 
 })();

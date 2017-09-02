@@ -1,2 +1,7 @@
-<h1>FindUs</h1>
-<pre>{{main.findus | json}}</pre>
+<div ng-if="finditem.fields['Show'] == true">
+    <div class="findusname">{{finditem.fields["Name"]}}</div>
+    <div class="shortloc">{{finditem.fields["ShortLoc"]}}</div>
+</div>
+<div style="display: none;">
+    <pre>{{main.findus | json}}</pre>
+</div>

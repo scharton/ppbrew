@@ -82,14 +82,17 @@
             </div>
         </div>
     </div>
-    <div class="row" style="display:flex;">
-        <div ng-repeat="finditem in main.findus" class="col-md-6 col-sm-6 col-lg-6 findus">
-            <div class="findusname">{{finditem.fields["Name"]}}</div>
-            <div class="shortloc">{{finditem.fields["ShortLoc"]}}</div>
+    <div class="row" style="display:none;">
+        <div ng-repeat="finditem in main.findus" class="col-xs-12 col-md-6 col-sm-6 col-lg-6 findus">
+            <div ng-if="finditem.fields['Show'] == true">
+                <div class="findusname">{{finditem.fields["Name"]}}</div>
+                <div class="shortloc">{{finditem.fields["ShortLoc"]}}</div>
+            </div>
         </div>
     </div>
     <div class="row" style="display:flex;">
-        <find-us></find-us>
+        <div ng-repeat="finditem in main.findus" class="col-xs-12 col-md-6 col-sm-6 col-lg-6 findus">
+            <find-us></find-us>
     </div>
     <div class="row" style="display:none;">
         <pre>{{main.beers}}</pre>
