@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "id": "rec0xR4XNZ6WMncoz",
+      "fields": {
+        "Name": "Hayz Warz",
+        "Alcohol": 7.2,
+        "Status": "Ready"
+      },
+      "createdTime": "2016-12-17T16:21:37.000Z"
+    },
+    {
+      "id": "recSV6i3RJ7iW7TVM",
+      "fields": {
+        "Name": "Apricot Berliner",
+        "Alcohol": 4.2,
+        "Status": "Ready"
+      },
+      "createdTime": "2017-08-26T17:33:30.000Z"
+    },
+    {
+      "id": "recVWZ2wo2Ry86Rmu",
+      "fields": {
+        "Name": "60-90 DIPA",
+        "Alcohol": 8.5,
+        "Price": 9,
+        "Status": "Ready"
+      },
+      "createdTime": "2016-12-17T16:21:37.000Z"
+    },
+    {
+      "id": "recdDF78lbyOrkeaW",
+      "fields": {
+        "Name": "On Point Pale Ale",
+        "Notes": "a blend of Mosaic and Citra hops give this beer great aroma while keeping the overall bitterness low",
+        "Alcohol": 6.3,
+        "Status": "Ready"
+      },
+      "createdTime": "2017-08-26T17:34:20.000Z"
+    },
+    {
+      "id": "recefrcGpgZwVPapP",
+      "fields": {
+        "Name": "Summer IPA",
+        "Alcohol": 7.5,
+        "Status": "Ready"
+      },
+      "createdTime": "2017-08-26T17:34:02.000Z"
+    },
+    {
+      "id": "recepARJwBKfivI5l",
+      "fields": {
+        "Name": "RYE-PA",
+        "Alcohol": 5.9,
+        "Price": 5,
+        "Status": "Unavailable"
+      },
+      "createdTime": "2016-12-17T16:21:37.000Z"
+    },
+    {
+      "id": "recfwTClXgIuWIntw",
+      "fields": {
+        "Name": "Pacific Coast Porter",
+        "Alcohol": 6.5,
+        "Status": "Ready"
+      },
+      "createdTime": "2017-08-26T17:33:48.000Z"
+    }
+  ]
+}

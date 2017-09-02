@@ -89,3 +89,20 @@
     background-color: #2e6da4;
     color:floralwhite;
 }
+
+.beer-notes {
+    font-size: 14px;
+    color: #000000;
+}
+
+.findus {
+    background-color: #00b3ee;
+}
+.findusname {
+    font-size: 16px;
+
+}
+.shortloc {
+    font-size: smaller;
+    padding-left: 2px;
+}

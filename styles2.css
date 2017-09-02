@@ -1,0 +1,43 @@
+body {
+    font-size: 24px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 100px;
+}
+.logo {
+    height: 150px;
+}
+.logo-xs {
+    height: 75px;
+}
+.instagram {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 35px;
+    padding-right: 20px;
+}
+.instagram-xs {
+    position: absolute;
+    right: 0;
+    top: 0px;
+    height: 25px;
+    padding-right: 0px;
+}
+
+.facebook {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    height: 35px;
+    padding-right: 20px;
+}
+.facebook-xs {
+    position: absolute;
+    right: 0;
+    top: 30px;
+    height: 25px;
+    padding-right: 0px;
+}
